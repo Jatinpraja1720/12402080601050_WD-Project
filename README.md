@@ -1,38 +1,76 @@
 # Text Analyzer – Live Character Counter
 
-A simple, responsive Web Development project that analyzes text instantly.
+📌 About the Project
 
-## Features
-- Live total character count
-- Word count
-- Uppercase and lowercase letter counts
-- Number and special-symbol counts
-- Character limit selector (100, 280, 500, or 1000)
-- Remaining-character message and progress bar
-- Clear Text and Copy Text buttons
-- Responsive, light-colour interface
+Text Analyzer is a lightweight web application developed as part of a Web Development college project.
 
-## Technologies
-- HTML5
-- CSS3
-- JavaScript (DOM manipulation)
+It allows users to type or paste text and instantly see detailed statistics without clicking an analyze button. The interface uses a clean, light-colour design to keep everything simple and easy to understand.
 
-## How to Run in VS Code
-1. Extract the ZIP file.
-2. Open the `text-analyzer-project` folder in VS Code.
-3. Open `index.html` in a browser, or use the **Live Server** extension and click **Go Live**.
+✨ Features
+🔤 Live Character Counter — Counts every character, including spaces.
+📝 Word Counter — Calculates the total number of words.
+🔠 Uppercase Counter — Counts capital letters.
+🔡 Lowercase Counter — Counts small letters.
+🔢 Number Counter — Detects numeric digits.
+🔣 Special Symbol Counter — Counts symbols and punctuation.
+🎯 Character Limit Selector — Choose between 100, 280, 500, and 1000 characters.
+📊 Progress Bar — Shows how much of the selected character limit has been used.
+⚠️ Limit Warning — Highlights the counter in red when the limit is exceeded.
+📋 Copy Text — Copies the entered text to the clipboard.
+🧹 Clear Text — Clears the text area and resets the statistics.
+📱 Responsive Design — Works on desktop and mobile screens.
+🛠️ Built With
+Technology	Purpose
+HTML5	Structures the webpage
+CSS3	Provides styling and responsive layout
+JavaScript	Calculates text statistics dynamically
+DOM Manipulation	Updates the results instantly
+📸 How It Works
+Enter or paste your text into the text area.
+View the character count and remaining character limit.
+Check the detailed text statistics.
+Change the character limit if needed.
+Copy your text or clear the editor whenever you want.
 
-No installation, backend, or database is required.
+Everything updates automatically as you type! ⚡
 
-## Upload to GitHub
-1. Open the project folder in VS Code.
-2. Open the Source Control panel.
-3. Click **Initialize Repository** if prompted.
-4. Stage the files, enter a commit message such as `Initial commit`, and commit.
-5. Publish the repository to GitHub, or connect it to a repository you have already created.
+🚀 Getting Started
+Run Locally
+Download or clone the repository.
+Open the project folder in VS Code.
+Open index.html in your browser, or use the Live Server extension.
 
-## Notes
-- Character counting includes spaces and line breaks.
-- Word counting ignores extra spaces and line breaks between words.
-- Uppercase/lowercase counts currently count English letters A–Z and a–z.
-- Special symbols are characters that are not English letters, digits, or whitespace.
+No additional packages, database, or backend setup is required.
+
+📂 Project Structure
+text-analyzer-web-app/
+│
+├── index.html      # Website structure
+├── style.css       # Styling and layout
+├── script.js       # Text analysis logic
+├── README.md       # Project documentation
+└── .gitignore      # Git ignore rules
+🎯 Project Objective
+
+The main objective of this project is to understand how HTML, CSS, and JavaScript work together to build an interactive web application.
+
+It demonstrates the practical use of:
+
+DOM manipulation
+JavaScript string methods
+Regular expressions
+Event listeners
+Real-time data updates
+Responsive web design
+🔮 Future Improvements
+🌍 Support for multiple languages.
+📄 Sentence and paragraph statistics.
+📈 Reading time estimation.
+📥 Download analyzed text as a file.
+🌙 Dark mode.
+👨‍💻 Developed By
+
+Jatin Prajapati
+Joyal patel
+
+
