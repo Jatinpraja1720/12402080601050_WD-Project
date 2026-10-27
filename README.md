@@ -42,14 +42,7 @@ Open index.html in your browser, or use the Live Server extension.
 
 No additional packages, database, or backend setup is required.
 
-📂 Project Structure
-text-analyzer-web-app/
-│
-├── index.html      # Website structure
-├── style.css       # Styling and layout
-├── script.js       # Text analysis logic
-├── README.md       # Project documentation
-└── .gitignore      # Git ignore rules
+
 🎯 Project Objective
 
 The main objective of this project is to understand how HTML, CSS, and JavaScript work together to build an interactive web application.
